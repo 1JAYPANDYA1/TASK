@@ -5,6 +5,7 @@ const App = () => {
     <Router>
       <Routes>
         <Route to="/"></Route>
+        <Route to="/"></Route>
       </Routes>
     </Router>
   )
