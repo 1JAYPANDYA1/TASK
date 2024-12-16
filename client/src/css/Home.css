@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    height:auto;
+    width: 20vw;
+    border: 1px solid black;
+}
+.author{
+    height: auto;
+    width: auto;
+    border: 1px solid gray;
+}

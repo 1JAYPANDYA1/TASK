@@ -1,13 +1,13 @@
 import React from 'react'
-import {browserRouter as Router,Routes,Route,Link} from 'react-router-dom'
+import {Routes,Route} from 'react-router-dom'
+import Home from './pages/Home'
+import Author from './pages/Author'
 const App = () => {
   return (
-    <Router>
       <Routes>
-        <Route to="/"></Route>
-        <Route to="/"></Route>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/author/:name" element={<Author/>} />
       </Routes>
-    </Router>
   )
 }
 
